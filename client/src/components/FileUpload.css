@@ -1,0 +1,118 @@
+.top {
+  margin: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #5aff15, #00b712);
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.choose:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+.textArea {
+  color: white;
+}
+
+.upload {
+  border: 1px solid #13aa52;
+  background-color: #13aa52;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.upload:hover {
+  border: 1px solid #13aa52;
+  background-color: #a5efc1;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.upload:disabled,
+.upload[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+div {
+  padding: 5px 10px;
+}
+
+.upload-container {
+  width: 100%;
+}
+
+.upload-card {
+  border: 2px dashed #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin-bottom: 1.5rem;
+}
+
+.upload-card:hover {
+  border-color: #6366f1;
+}
+
+.upload-icon {
+  margin: 0 auto 1rem;
+  width: 64px;
+  height: 64px;
+  color: #6366f1;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background-color: #6366f1;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.file-label:hover {
+  background-color: #4f46e5;
+}
+
+.file-name {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #64748b;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.upload-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.upload-instructions {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin: 1rem 0;
+}

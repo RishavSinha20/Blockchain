@@ -1,0 +1,100 @@
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 350px;
+
+  margin: 10px;
+}
+
+.image-list img {
+  width: 250px;
+  height: 350px;
+}
+.center {
+  margin: 40px;
+}
+
+.button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #009ffd, #2a2a72);
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.button:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+.address {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 330px;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}
+
+.display-container {
+  width: 100%;
+}
+
+.address-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease;
+}
+
+.address-input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.fetch-btn {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.image-item {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  aspect-ratio: 1/1;
+}
+
+.image-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #64748b;
+}
